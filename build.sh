@@ -237,7 +237,7 @@ Terminal=false
 Type=Application
 EOF
     mkdir -p ~/.icons
-    cp ${root_dir}/media/obs.png ~/.icons
+    cp ${root_dir}/ffmpeg-nvenc/share/icons/hicolor/256x256/apps/obs.png ~/.icons
     gtk-update-icon-cache -t ~/.icons
 }
 
